@@ -12,4 +12,4 @@ set(SFML_DIR ${PROJECT_SOURCE_DIR}/SFML-2.5.0)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 add_executable(${PROJECT_NAME} ${SOURCES})
-target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-audio sfml-system)
+target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-audio sfml-system sfml-window)
